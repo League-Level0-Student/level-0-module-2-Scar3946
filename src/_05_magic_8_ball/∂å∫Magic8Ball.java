@@ -28,7 +28,7 @@ JOptionPane.showInputDialog(null, "Ask me a question because "
 		}
 
 	else if (randomNumber == 3) {
-			JOptionPane.showµµ∆
+			
 		}
 	
 		
