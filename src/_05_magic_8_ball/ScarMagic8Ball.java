@@ -8,7 +8,7 @@ import java.util.Random;
 
 import javax.swing.JOptionPane;
 
-public class Magic8Ball {
+public class ScarMagic8Ball {
 public static void main(String[] args) {
 	
 	Random randomMaker = new Random();
@@ -28,7 +28,9 @@ JOptionPane.showInputDialog(null, "Ask me a question because "
 		}
 
 	else if (randomNumber == 3) {
-			
+			JOptionPane.showInputDialog(null,"Look I didn't say "
+					+ "I had all the answers to your questions"
+					+ "I just said I had all the answers");
 		}
 	
 		
