@@ -19,12 +19,20 @@ public class ScarAnimalFarm {
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */
 for (int i = 0 ; i < 5 ; i++) {
 String input =JOptionPane.showInputDialog("What is an animal you like");
-if(input == "cow") {
+if(input.equalsIgnoreCase("cow") ) {
 	playMoo();
 }
-if (input == "Duck") {
-	
+if (input.equalsIgnoreCase("Duck") ) {
+	playQuack();
 }
+if (input.equalsIgnoreCase("llama")) {
+	playLlama();
+}
+if (input.equalsIgnoreCase("dog")) {
+	playWoof();
+}
+if (input.equalsIgnoreCase("cat")) {
+	playMeow();
 }
 }		/* 2. Make it so that the user can keep entering new animals. */
 
