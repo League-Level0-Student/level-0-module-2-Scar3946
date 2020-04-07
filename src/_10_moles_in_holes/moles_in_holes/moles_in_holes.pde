@@ -1,12 +1,23 @@
+int moleX = 200;
+int moleY = 200;
+int molex = 70;
+int moley = 119;
+int Molex = 300;
+int Moley = 60;
+int MoleX = 297;
+int MoleY = 350;
 void draw() {
-drawMole (moleX,moleY) {
-int moleX = 200 ;
-int moleY = 200 ;
+
+drawMole (moleX,moleY) ;
+drawMole (molex,moley);
+drawMole  (Molex,Moley);
+drawMole (MoleX,MoleY);
+}
 
 /* Use the method below to put moles in the holes. */
 
 
-}
+
 
 void drawMole(int moleX, int moleY) {
      noStroke ();
@@ -30,4 +41,5 @@ void setup() {
     ellipse(70, 119, 100, 30);
      ellipse(300, 60, 100, 30);
      ellipse(297, 350, 100, 30);
+    
 }

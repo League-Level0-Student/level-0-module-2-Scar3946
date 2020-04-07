@@ -3,11 +3,13 @@ void setup(){
      //call the makeIceCreamCone() method below to make an ice cream cone
 makeIceCreamCone();
      //use the addScoop method below to add as many scoops of ice cream as you want
-addScoop(String flavor) {}
+addScoop("vanilla") ;
      //Use the method to add sprinkles to your ice cream
-//addSprinkle
+addSprinkle (20);
      //Write code to add a cherry to the top of your ice cream. hint: ellipse
-
+fill (0=     
+ellipse (250,320- 50,20,20);
+     
 }
 
 /******************************************************************/
@@ -43,7 +45,7 @@ void addScoop(String flavor){
      scoops++;
 }
 
-//Don't Touch this method!!
+//Don't Touch this method!
 void addSprinkle(int numberOfSprinkles){
     for(int i = 0; i < numberOfSprinkles; i++){
          fill(random(256),random(256),random(256));
