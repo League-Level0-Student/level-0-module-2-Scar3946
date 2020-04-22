@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-public class DiceRoll {
+public class DiceRollScar {
 
 	private JFrame window = new JFrame("Roll the Dice!");
 	private JPanel panel = new JPanel();
